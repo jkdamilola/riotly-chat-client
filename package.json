@@ -1,10 +1,9 @@
 {
   "private": true,
-  "homepage": "https://riotly-chat.herokuapp.com",
+  "homepage": "https://create-react-app-redux.now.sh",
   "scripts": {
-    "dev": "node scripts/start.js",
-    "start": "serve -s build",
-    "heroku-postbuild": "node scripts/build.js",
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
