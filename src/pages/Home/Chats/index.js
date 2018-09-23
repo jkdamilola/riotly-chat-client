@@ -33,6 +33,8 @@ class Chats extends Component {
           { 
             !this.props.searching &&
             rooms.my.map((e, index) => {
+              if (!e) return null;
+              
               return (
                 <div
                   className={clazz('chat', {
