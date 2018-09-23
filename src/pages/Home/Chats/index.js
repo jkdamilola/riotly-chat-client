@@ -20,6 +20,7 @@ class Chats extends Component {
 
   render() {
     const { loading, rooms } = this.props;
+    console.log(rooms);
 
     if (loading) return false;
 
