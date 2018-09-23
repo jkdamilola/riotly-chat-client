@@ -1,13 +1,11 @@
 {
   "private": true,
-  "homepage": "https://create-react-app-redux.now.sh",
+  "homepage": "https://riotly-chat.herokuapp.com",
   "scripts": {
-    "deploy": "now && now alias",
-    "start": "node scripts/start.js",
-    "now-start": "serve -s ./build",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom",
-    "precommit": "pretty-quick --staged"
+    "dev": "node scripts/start.js",
+    "start": "serve -s build",
+    "heroku-postbuild": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
     "file-loader": "^1.1.5",
